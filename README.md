@@ -49,8 +49,11 @@ python main.py
 🎮 Controls
 Key	Action
 ⬅️ Left Arrow	Move Left
+
 ➡️ Right Arrow	Move Right
+
 ⬇️ Down Arrow	Move Down
+
 ⬆️ Up Arrow	Rotate Block
 ESC	Quit Game
 🧱 Game Architecture
