@@ -132,4 +132,4 @@ The sounds/ directory includes sound effects for:
 
 ## 👨‍💻 Author
 
-Developed by: Your Name Here
+Developed by: Mazen Younes
