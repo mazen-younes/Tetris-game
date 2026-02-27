@@ -1,114 +1,121 @@
-🎮 Tetris Game (Python + Pygame)
-📌 Overview
+# 🎮 Python Tetris Game
 
-This project is a fully functional Tetris game built using Python and Pygame.
-It follows an object-oriented design and separates game logic into multiple modules for better structure and maintainability.
+## 📌 Project Description
+This project is a classic implementation of the **Tetris Game** developed using **Python** and the **Pygame** library.  
+The game follows Object-Oriented Programming (OOP) principles and is structured into multiple modules to ensure clean code organization, scalability, and maintainability.
 
-The game includes block movement, rotation, collision detection, row clearing, scoring logic, and sound effects.
+The objective of the game is to control falling Tetromino blocks, arrange them strategically, and clear complete horizontal rows to score points.
 
-🧠 Features
+---
 
-✅ Classic Tetris gameplay
+## 🧠 Game Features
 
-✅ 7 different Tetromino shapes (I, J, L, O, S, Z, T)
+- Classic Tetris Gameplay  
+- Seven Different Tetromino Shapes (I, J, L, O, S, Z, T)  
+- Block Rotation System  
+- Collision Detection  
+- Grid-Based Movement  
+- Row Clearing Functionality  
+- Score Tracking  
+- Sound Effects  
+- Modular and Clean Code Structure  
 
-✅ Block rotation system
+---
 
-✅ Collision detection
+## 🗂️ Project File Structure
 
-✅ Row clearing system
+Tetris-Game/
+│
+├── sounds/            → Contains sound effects used in the game  
+│
+├── block.py           → Base Block class  
+├── blocks.py          → Tetromino shape definitions  
+├── colors.py          → RGB color configurations  
+├── game.py            → Core game logic and mechanics  
+├── grid.py            → Grid system and row clearing logic  
+├── main.py            → Game loop and rendering  
+├── position.py        → Position class for grid cells  
+│
+└── README.md          → Project documentation  
 
-✅ Score tracking
+---
 
-✅ Sound effects
+## ⚙️ System Requirements
 
-✅ Clean modular structure
+- Python 3.x  
+- Pygame Library  
 
-🗂️ Project Structure
-sounds/          # Game sound effects
-block.py         # Base Block class
-blocks.py        # All Tetromino shapes
-colors.py        # RGB color definitions
-game.py          # Main game logic
-grid.py          # Grid management and row clearing
-main.py          # Game loop and rendering
-position.py      # Position class (row, column)
-⚙️ Installation
-1️⃣ Clone the repository
-git clone https://github.com/your-username/tetris-game.git
-cd tetris-game
-2️⃣ Install dependencies
+---
 
-Make sure Python 3 is installed.
+## 📦 Installation
 
-Install pygame:
+### 1️⃣ Install Python
+Download Python from:  
+https://www.python.org/
 
-pip install pygame
+### 2️⃣ Install Pygame
+Open your terminal or command prompt and run:
 
-▶️ How to Run
 
-python main.py
+---
 
-🎮 Controls
+## ▶️ Running the Game
 
-Key	Action
+Navigate to the project folder and run:
 
-⬅️ Left Arrow	Move Left
 
-➡️ Right Arrow	Move Right
+---
 
-⬇️ Down Arrow	Move Down
+## 🎮 Game Controls
 
-⬆️ Up Arrow	Rotate Block
+| Key              | Function            |
+|------------------|---------------------|
+| ← Left Arrow     | Move Block Left     |
+| → Right Arrow    | Move Block Right    |
+| ↓ Down Arrow     | Move Block Down     |
+| ↑ Up Arrow       | Rotate Block        |
+| ESC              | Exit Game           |
 
-ESC	Quit Game
+---
 
-🧱 Game Architecture
+## 🧱 Game Architecture Overview
 
-The game is designed using object-oriented programming principles:
+- **position.py** → Stores row and column positions.  
+- **block.py** → Parent class for all block types.  
+- **blocks.py** → Defines each Tetromino shape.  
+- **grid.py** → Manages the board and clears completed rows.  
+- **game.py** → Controls gameplay logic and interactions.  
+- **main.py** → Runs the main game loop and handles rendering.  
 
-Position → Stores row and column values.
+---
 
-Block → Parent class for all shapes.
+## 🔊 Sound Effects
 
-Blocks → Defines each Tetromino.
+The `sounds/` directory includes sound effects for:
+- Block movement  
+- Block rotation  
+- Row completion  
+- Game over  
 
-Grid → Handles board logic and row clearing.
+---
 
-Game → Controls game mechanics.
+## 🚀 Future Improvements
 
-Main → Runs the game loop and handles rendering.
+- Ghost Piece Feature  
+- Hold Block Functionality  
+- Difficulty Levels  
+- Pause Menu  
+- High Score Saving System  
 
-🔊 Sounds
+---
 
-The sounds/ folder contains sound effects used for:
+## 🏗️ Built With
 
-Block movement
+- Python  
+- Pygame  
 
-Rotation
+---
 
-Row clearing
+## 👨‍💻 Author
 
-Game over
-
-📈 Future Improvements
-
-Add ghost piece feature
-
-Add hold block functionality
-
-Add difficulty levels
-
-Add high score saving
-
-Add pause menu
-
-🏗️ Built With
-
-Python 3
-
-Pygame
-
-👨‍💻 Author
-
-Mazen Younes 
+Developed by: *Your Name Here*
